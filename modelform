@@ -1,0 +1,16 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+class ${1:ModelnameForm}(forms.ModelForm):
+    $0
+
+    ${3:def clean_${4:fieldname}(self):
+         $5
+		return self.cleaned_data['$4']}
+
+    ${6:def clean(self):
+         ${7:}
+         return self.cleaned_data}
+
+    ${8:def save(self):
+        super($1, self).save()
+        ${9:}}

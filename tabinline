@@ -1,0 +1,7 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+class ${1:ModelName}Inline(admin.TabularInline):
+    model = ${2:$1}
+    ${3:extra = ${4:}}
+    ${5:max_num = ${6:}}
+    $0

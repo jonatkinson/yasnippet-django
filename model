@@ -1,0 +1,16 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+class ${1:Modelname}(models.Model):
+    """${2:($1 description)}"""
+    $0
+
+    ${3:class Meta:
+        ordering = [${4:}]
+        verbose_name, verbose_name_plural = "${5:}", "${6:$5s}"}
+
+    def __unicode__(self):
+        return ${7:u"$1"}
+
+    ${8:@models.permalink
+    def get_absolute_url(self):
+        return ('${9:$1}', [${10:self.id}])}

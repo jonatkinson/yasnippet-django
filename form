@@ -1,0 +1,17 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+class ${1:Formname}(forms.Form):
+    """${2:($1 description)}"""
+    ${3:def __init__(self, *args, **kwargs):
+         ${4:}
+         super($1, self).__init__(*args, **kwargs)}
+
+    $0
+
+    ${5:def clean_${6:fieldname}(self):
+         $7
+		return self.cleaned_data['$6']}
+
+    ${8:def clean(self):
+         $9
+         return self.cleaned_data}
