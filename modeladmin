@@ -1,5 +1,3 @@
-# This was cloned from a TextMate bundle for yasnippet.
-# --
 class ${1:ModelName}Admin(admin.ModelAdmin):
     ${2:date_hierarchy = '${3:}'}
     ${4:list_display = (${5:})}

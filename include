@@ -1,3 +1,1 @@
-# This was cloned from a TextMate bundle for yasnippet.
-# --
 {% include ${1:"$2"} %}
