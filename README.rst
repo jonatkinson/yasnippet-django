@@ -9,15 +9,15 @@ The current set of snippets build on the updated TextMate bundle, created by `Br
 Usage
 =====
 
-#. Checkout the repository:
+#. Checkout the repository, or untar the release:
 
 	git://github.com/jonatkinson/yasnippet-django.git
 
-#. Copy these files into your yasnippets/django-mode/ folder (this could be located anywhere, if you need a point in the right direction, try ~/.emacs.d/)
+        -or-
 
-TODO
-====
-- Cleanup the snippets manually.
+        tar xzf yasnippet-django-X.X.tar.gz
+
+#. Copy these files into your yasnippets/django-mode/ folder (this could be located anywhere, if you need a point in the right direction, try ~/.emacs.d/)
 
 .. _yasnippet: http://code.google.com/p/yasnippet/
 .. _Brian Kerr: http://bitbucket.org/bkerr/django-textmate-bundles/wiki/Home
